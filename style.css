@@ -1,0 +1,66 @@
+body {
+    background-image: url('weather.jpg'); 
+    background-size: cover;
+    color: #535eee;
+    background-repeat: no-repeat;
+}
+
+.card {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+#weatherResult {
+    margin-top: 20px;
+}
+
+.weather-widgets {
+    margin-top: 20px;
+}
+
+.weather-widgets p {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.weather-widgets p::before {
+    margin-right: 10px;
+}
+
+.weather-widgets p.weather-icon::before {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.weather-widgets p.rainy::before {
+    content: '🌧️'; 
+}
+
+.weather-widgets p.sunny::before {
+    content: '☀️'; 
+}
+
+.weather-widgets p.foggy::before {
+    content: '🌁'; 
+}
